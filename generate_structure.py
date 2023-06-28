@@ -61,8 +61,7 @@ def generate_project_structure(project_name):
     with open(os.path.join(frontend_dir, 'package.json'), 'w') as package_json:
         package_json.write('{ "name": "your-package-name", "version": "1.0.0" }')
 
-    with open(os.path.join(frontend_dir, 'package-lock.json'), 'w') as package_lock_json:
-        package_lock_json.write('# Your package-lock.json content here')
+
 
 if __name__ == '__main__':
     project_name = input("Enter your project name: ")
