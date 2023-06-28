@@ -82,7 +82,8 @@ To set up the frontend part of the project:
 
 3. Build the frontend Docker image:
    ```
-   docker build -t your_project_name-frontend -f frontend/Dockerfile .
+   docker build -t chongkan-frontend frontend/
+
    ```
 
 4. Run the frontend container:
