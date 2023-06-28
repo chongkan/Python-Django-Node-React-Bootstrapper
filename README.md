@@ -1,7 +1,32 @@
 # Python-Django-Node-React-Bootstrapper
 
 Auto Project Structure Generator: Python script to automate the generation of a web project folder structure with Docker, Django (backend), and React (frontend) based on a project name. Accelerate project setup with a standardized directory layout.
+   ```
+myapp
+├── backend
+│   ├── Dockerfile
+│   ├── manage.py
+│   ├── myapp
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   └── requirements.txt
+└── frontend
+    ├── Dockerfile
+    ├── public
+    │   ├── index.html
+    │   └── favicon.ico
+    ├── src
+    │   ├── App.js
+    │   ├── index.js
+    │   └── components
+    │       ├── Header.js
+    │       └── Footer.js
+    ├── package.json
+    └── package-lock.json
 
+   ```
 ## Project Setup
 
 Follow these steps to set up the project:
