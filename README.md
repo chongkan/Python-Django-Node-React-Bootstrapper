@@ -59,7 +59,7 @@ To set up the backend part of the project:
 
 3. Build the backend Docker image:
    ```
-   docker build -t your_project_name-backend -f Dockerfile.backend .
+   docker build -t your_project_name-backend -f backend/Dockerfile .
    ```
 
 4. Run the backend container:
@@ -82,7 +82,7 @@ To set up the frontend part of the project:
 
 3. Build the frontend Docker image:
    ```
-   docker build -t your_project_name-frontend -f Dockerfile.frontend .
+   docker build -t your_project_name-frontend -f frontend/Dockerfile .
    ```
 
 4. Run the frontend container:
