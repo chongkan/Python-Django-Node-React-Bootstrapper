@@ -2,8 +2,6 @@
 
 Auto Project Structure Generator: Python script to automate the generation of a web project folder structure with Docker, Django (backend), and React (frontend) based on a project name. Accelerate project setup with a standardized directory layout.
 
-Certainly! Here's the reformatted version of the previous steps that you can directly paste into a README.md file:
-
 ## Project Setup
 
 Follow these steps to set up the project:
